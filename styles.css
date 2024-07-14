@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    background-image: url(pexels-content-pixie-1405717-2736497.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 30px green;
+    line-height: 75px;
+    font-size: 60px;
+    color: rgb(10, 48, 18);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+#container {
+    text-align: center;
+    padding-right: 800px;
+}
+#cellcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#statusText {
+    color: rgb(19, 44, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: rgb(8, 51, 12);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    font-size: 67px;
+}
+h2 {
+    font-size: 50px;
+}
+button {
+    padding: 10px;
+    color: black;
+    background-color: rgb(25, 176, 214);
+}
