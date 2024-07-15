@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url(pexels-content-pixie-1405717-2736497.jpg);
+    background-image: url(pexels-free-nature-stock-7477.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -8,16 +8,16 @@ body {
     width: 75px;
     height: 75px;
     border: 2px solid;
-    box-shadow: 0 0 30px green;
+    box-shadow: 0 0 3px white;
     line-height: 75px;
     font-size: 60px;
-    color: rgb(10, 48, 18);
+    color: rgb(255, 255, 255);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
 }
 #container {
     text-align: center;
-    padding-right: 800px;
+    padding-right: 11px;
 }
 #cellcontainer {
     display: grid;
@@ -26,20 +26,30 @@ body {
     margin: auto;
 }
 #statusText {
-    color: rgb(19, 44, 22);
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    color: rgb(8, 51, 12);
+    color: rgb(255, 255, 255);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10px;
     font-size: 67px;
+    text-shadow: 0 0 20px;
+    border: 2px solid ;
 }
 h2 {
     font-size: 50px;
+    padding-left: 10px;
 }
 button {
-    padding: 10px;
+    padding: 10px 20px;
     color: black;
-    background-color: rgb(25, 176, 214);
+    font-weight: 800;
+    margin-left: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+button:hover {
+    background-color: black;
+    color: white;
 }
