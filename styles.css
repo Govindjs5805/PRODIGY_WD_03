@@ -15,6 +15,9 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
 }
+span {
+    color: aqua;
+}
 #container {
     text-align: center;
     padding-right: 11px;
